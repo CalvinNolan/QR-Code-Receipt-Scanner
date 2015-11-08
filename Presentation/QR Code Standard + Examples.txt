@@ -1,0 +1,10 @@
+Code standard:
+example.com/AIB/home/update/time=UTCTimestamp/location=String/currency=String/Item=Float/…
+
+Examples:
+localhost/AIB/home/update/time=1446910715/location=Odeon/currency=euro/Entertainment=30/
+localhost/AIB/home/update/time=1446910715/location=Tesco/currency=euro/Food=40/Health=20/
+
+Both of these are provided in code form as AIB_cinema_code.jpg and AIB_tesco_code.jpg
+
+

@@ -1,0 +1,130 @@
+/* Author: Calvin Nolan & Tomas Barry */
+
+body {
+	background-image: linear-gradient(to right, rgb(208, 100, 148) 0px, rgb(147, 30, 90) 0px, rgb(64, 18, 70) 79%);
+}
+
+.wrapper {
+	background-color: rgba(255, 255, 255, 0.8);
+	margin: 0 auto;
+	margin-top: 2%;
+	height: 95%;
+	width: 94%;
+	min-height: 650px;
+	min-width: 1040px;
+}
+
+.title {
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 45px;
+	font-weight: 100;
+	letter-spacing: 8px;
+
+	margin-top: 0px;
+	padding-top: 1%;
+	margin-left: 3%;
+}
+
+.transaction-title {
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 20px;
+	font-weight: 200;
+	letter-spacing: 3px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	padding-bottom: 0;
+}
+
+.total-title {
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 20px;
+	font-weight: 200;
+	letter-spacing: 3px;
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-bottom: 15px;
+	padding-bottom: 0;
+}
+
+.total-sub-title {
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 16px;
+	font-weight: 100;
+	letter-spacing: 3px;
+	margin-top: 40px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+	padding-bottom: 0;
+}
+
+.transaction-li {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	margin-left: 0;
+	padding-left: 0;
+	margin-right: 0;
+}
+
+.transaction-li:hover {
+	background-color: rgb(208, 100, 148);
+}
+
+.legend p, .transaction-li p {
+	display: inline-block;
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 3px;
+
+	margin-right: 5px;
+}
+
+.transaction-list {
+	height: 30%;
+	overflow: scroll;
+	list-style: none;
+}
+
+.transactions {
+	margin-top: -15px;
+	min-width: 370px;
+}
+
+.charts {
+	float: left;
+	height: 80%;
+	width: 50%;
+	margin-left: 4%;
+	min-width: 550px;
+}
+
+#myChart {
+	width: 80%;
+	height: 80%;
+	max-width: 800px;
+	max-height: 800px;
+}
+
+.data {
+
+	float: right;
+	height: 90%;
+	width: 33%;
+	margin-right: 4%;
+	margin-top: -5%;
+}
+
+#chart_div {
+	height: 100%;
+	width: 100%;
+}
+
+#myChart {
+	margin-left: 5%;
+	margin-top: 5%;
+	height: 90%;
+	width: 90%;
+}
