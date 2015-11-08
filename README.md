@@ -17,9 +17,19 @@ The web portal was built using the CodeIgniter framework and is connected to a M
 The pie chart was created using the <a href="http://chartjs.org">Chart.js</a> and <a href="http://github.com/davidmerfield/randomColor">randomColor.js</a> libraries.
 All the information on the right is what's compiled and calculated from the database which is supplied by the Android App.
 
-The API that the App calls to compromises of a single function "update". By following our QR code standard we expect reqeusts like: 
+The API that the App calls to compromises of a single function "update". By following our QR code standard and with our current structure we expect requests like: 
+<ul>
+  <li>example.com/AIB/home/update/time=1446910715/location=Odeon/currency=euro/Entertainment=30/</li>
+  <li>example.com/AIB/home/update/time=1446910715/location=Tesco/currency=euro/Food=40/Health=20/</li>
+</ul>
 
-Setting it up:
+Our standard expects something in the form:
+<ul>
+  <li>example.com/AIB/home/update/time=UTCTimestamp/location=String/currency=String/Item=Float/…</li>
+</ul>
+Where you can specify an as many Items as you like, all seperated by forward slashes with whatever type you would like for the Item category as show in the examples above.
+
+Setting the Web Portal up:
 <ol>
   <li>Clone the repo</li>
   <li>Move the AIB folder into the htdocs of your server setup</li>
@@ -28,8 +38,8 @@ Setting it up:
 </ol>
 
 If you don't have a server setup: XAMPP was used for this project and is easy to get started, ensure you have also have PHP and MySQl installed.
-# Android App
 
+# Android App
 
 
 
